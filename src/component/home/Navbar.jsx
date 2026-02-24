@@ -3,6 +3,7 @@ import { AiFillPhone } from "react-icons/ai";
 import { IoIosSearch } from "react-icons/io";
 import { IoBagOutline } from "react-icons/io5";
 import { MdOutlineManageAccounts } from "react-icons/md";
+import bannerImg from "/bazar.png"
 
 const Navbar = () => {
    
@@ -55,7 +56,16 @@ const Navbar = () => {
            
         </ul>
       </div>
-    </div>
+
+      <div className="w-screen overflow-hidden">
+  <img
+    src={bannerImg}
+    alt="Banner"
+    className="w-full h-[300px] md:h-[450px] lg:h-[600px] object-cover"
+  />
+</div>
+
+     </div>
     
 
   );
