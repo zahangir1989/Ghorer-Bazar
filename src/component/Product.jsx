@@ -3,7 +3,7 @@ import React from "react";
 function Product() {
   return (
     <section>
-      <h1 className="text-4xl text-center my-5">ALL PRODUCT</h1>
+      <h1 className="text-4xl text-center my-5 mt-14 mb-12" >ALL PRODUCT</h1>
       <div className="max-w-5xl mx-auto grid grid-cols-5 gap-3">
         {/* Card div */}
         <div className="border text-center m-1">

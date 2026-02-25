@@ -57,13 +57,13 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="w-screen overflow-hidden">
-  <img
-    src={bannerImg}
-    alt="Banner"
-    className="w-full h-[300px] md:h-[450px] lg:h-[600px] object-cover"
-  />
-</div>
+      <div className="w-screen overflow-hidden pt-6">
+       <img
+        src={bannerImg}
+        alt="Banner"
+        className="w-full h-[300px] md:h-[450px] lg:h-[600px] object-cover"
+       />
+       </div>
 
      </div>
     
