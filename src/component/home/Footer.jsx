@@ -36,7 +36,14 @@ const Footer = () => {
             <h1 className='font-bold'>DBID ID : 437361334</h1>
            </div>
             </div>
+
+            <div className='bg-red-600'>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus.</h1>
+
+            </div>
         </section>
+
+        
     );
 };
 

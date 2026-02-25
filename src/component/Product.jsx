@@ -4,7 +4,7 @@ function Product() {
   return (
     <section>
       <h1 className="text-4xl text-center my-5 mt-14 mb-12" >ALL PRODUCT</h1>
-      <div className="max-w-5xl mx-auto grid grid-cols-5 gap-3">
+      <div className="max-w-5xl mx-auto grid grid-cols-5 gap-3 mb-12">
         {/* Card div */}
         <div className="border text-center m-1">
           <img className="mt-2" src="/Hony.webp" alt="" />
